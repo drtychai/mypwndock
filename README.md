@@ -5,7 +5,7 @@ This is my slightly customized version of
 docker cloud so this can build rather quickly.
 
 ## Installation
-1. Install Docker: `brew cask install docker` on OSX. You can figure it out on Linux.
+1. Install Docker: `brew cask install docker && brew install docker` on OSX. You can figure it out on Linux.
 2. Build: `./build`
 
 ## Running it
