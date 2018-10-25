@@ -3,9 +3,9 @@
 docker run --rm --detach --privileged -it \
 	--net=host \
 	-v $(pwd):/mnt \
-	-v $HOME/code:/root/code \
-	--hostname gpwn \
-	--name gpwn \
-	gpwn \
+	-v $HOME/ctf:/root/ctf \
+	--hostname dpwn \
+	--name dpwn \
+	dpwn \
 	bash \
     && echo "[+] Started"

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker kill gpwn >/dev/null && echo "[+] Stopped"
+docker kill dpwn >/dev/null && echo "[+] Stopped"
